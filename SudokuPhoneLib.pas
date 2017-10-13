@@ -1,10 +1,11 @@
 unit SudokuPhoneLib;
 
 interface
-//More comment added
-//Oh my god more changes!
-//HAHAHAHA
 
+// More comment added
+// Oh my god more changes!
+// HAHAHAHA
+// hahaha
 uses
   System.SysUtils, System.Types, System.UITypes, System.Classes,
   System.Variants,
@@ -40,7 +41,7 @@ function backtracking(var sudoku: AoA): boolean;
 var
   dupCounter: integer = 0;
   faultCounter: integer = 0;
-  isExist,validated: boolean;
+  isExist, validated: boolean;
 
 implementation
 
@@ -384,7 +385,7 @@ var
   row, column, region: array [0 .. 8] of tvalue;
 begin
   arrayGen(sudoku, row, column, region, y, x);
-findpossible(sudoku[y][x], row, column, region);
+  findpossible(sudoku[y][x], row, column, region);
 end;
 
 end.
