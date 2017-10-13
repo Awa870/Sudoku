@@ -1,9 +1,7 @@
 unit SudokuPhoneLib;
 
 interface
-//More comment added
-//Oh my god more changes!
-
+//Comment added in the interface
 uses
   System.SysUtils, System.Types, System.UITypes, System.Classes,
   System.Variants,
