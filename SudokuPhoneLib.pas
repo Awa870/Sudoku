@@ -3,7 +3,7 @@ unit SudokuPhoneLib;
 interface
 
 // More comment added
-// DDDDDDDDDDDDDDDDDDd
+// DDDDDDDDDDDDDD
 uses
   System.SysUtils, System.Types, System.UITypes, System.Classes,
   System.Variants,
