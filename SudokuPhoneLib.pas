@@ -3,6 +3,7 @@ unit SudokuPhoneLib;
 interface
 //More comment added
 //Oh my god more changes!
+//HAHAHAHA
 
 uses
   System.SysUtils, System.Types, System.UITypes, System.Classes,
@@ -26,7 +27,6 @@ type
 
   Ttest = array [0 .. 8] of tvalue;
   AoA = array [0 .. 8] of Ttest;
-//This is a new version of the library
 
 function StrConvert(var sudoku: AoA; var box: tvalue; var val: TButton)
   : integer;
