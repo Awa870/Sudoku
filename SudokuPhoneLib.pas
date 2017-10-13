@@ -3,7 +3,7 @@ unit SudokuPhoneLib;
 interface
 
 // More comment added
-// Oh my god more changes!
+// DDDDDDDDWW AAAA
 uses
   System.SysUtils, System.Types, System.UITypes, System.Classes,
   System.Variants,
